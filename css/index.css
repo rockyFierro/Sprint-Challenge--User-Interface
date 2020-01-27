@@ -97,6 +97,9 @@ nav a{
     padding: 0 1%;
     padding-bottom: 20px;
 }
+.top-content .picBlog{
+	width:100%;
+}
 /*--------------------------------------section-middle-content*/
 .middle-content-ABOUT {
     margin-bottom: 20px;
