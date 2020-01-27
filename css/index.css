@@ -216,3 +216,11 @@ header nav{
 	background-color:dodgerblue;
 	grid-area:dodgerblue;
 }
+
+/*-----------------------------About page specific styles--*/
+
+.container about-page{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
