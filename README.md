@@ -34,14 +34,22 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+  Semantic HTML is important. This is where you will learn to look at a website by its bones and imagine the creature that it is. The basic structure you receive or build yourself here will determine what the rest of the site will look like - it's important for how you will think about your design later and how you will navigate through it. stay with the basics and build up as you need to, html creatures have a head, body, and a footer. Research these and inspect them in every site you can as you would any anotomy.
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+  Display block breaks a page and move to a new line, inline does not.
+  You cannot access inline content dimensions with Width, and Height but you can with blocks.
 3. What are the 4 areas of the box model?
-
+  margin, border, padding, content
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+main (in column) and cross (in row)
 
 5. Explain why git is valuable to a team of developers.
+  git can keep a whole team working on different parts of the same projects in tandem with each other and without being destructive to an individuals work or the teams.
 
+  
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
@@ -52,13 +60,13 @@ You are expected to be able to answer all these questions. Your responses contri
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+
 
 
 ## Minimum Viable Product
